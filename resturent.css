@@ -1,0 +1,1023 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+*{
+    overflow-x: hidden;
+}
+span{
+    overflow-y: hidden;
+    font-size: 30px;
+}
+
+body{
+    background-image: url(main.jpg);
+    background-repeat: no-repeat;
+    background-color: #040909;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.btn{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    padding: 20px 40px;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid #c9ab81;
+    font-size: 16px;
+    font-weight: 700;
+ 
+}
+
+a{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    padding: 20px 40px;
+    background-color: transparent;
+    border:1px solid #c9ab81;
+    color:white;
+    position:absolute;
+    top:40px;
+    right:40px;
+    font-size: 14px;
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    text-decoration: none;
+    font-weight:700px;
+}
+.mbtn:before{
+    content: '';
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:  #c9ab81;
+    z-index:-1;
+    transition:transform 0.5s;
+    transform-origin:0 0;
+    transition-timing-function:cubic-bezier(0.5,1.6,0.4,0.7) ;
+    transform: scaleX(0);
+
+}
+.mbtn:hover::before{
+    transform:scaleX(1);
+}
+
+.logo{
+    position:relative;
+    top:60px;
+    left:80px;
+}
+.logo2{
+    position:relative;
+    top:180px;
+    left:200px;
+   
+}
+
+h1{
+    overflow-y: hidden;
+    position: relative;
+    top:0px;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Mrs Saint Delafield', cursive;
+    color:rgb(201, 171, 129);
+    font-weight: 200;
+    margin: 0px;
+   margin-top: 90px;
+    font-size: 115px;
+}
+
+.pera1{
+    color:white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size:21px;
+    line-height:32px;
+    font-weight: 300;
+    margin-top: 0px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+
+}
+
+.container
+{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        margin-top: 180px;
+}
+.container2{
+    margin-top: 60px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.container3{
+    margin-bottom: 150px;
+}
+.col
+{   position: relative;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.box1{
+   
+ WIDTH:28vw;
+ height:200px;
+ background-image: url(card1.jpg);
+ background-size: cover;
+ transition: 15s;
+ background-position: top;
+ 
+    
+}
+.box2{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(card2.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+       
+   }
+   .box3{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(card3.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+       
+   }
+   .box4{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(card4.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+       
+   }
+   .box5{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(card5.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+       
+   }
+   .box6{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(card6.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+       
+   }
+   .box7{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(card7.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+       
+   }
+   .box8{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(card8.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: left;
+       
+   }
+   .box9{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(card9.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: left;
+       
+   }
+
+.box1:hover{
+    background-position:bottom;
+}
+.box2:hover{
+    background-position:bottom;
+}
+.box3:hover{
+    background-position:bottom;
+}
+.box4:hover{
+    background-position:bottom;
+}
+.box5:hover{
+    background-position:bottom;
+}
+.box6:hover{
+    background-position:bottom;
+}
+.box7:hover{
+    background-position:bottom;
+}
+.box8:hover{
+    background-position:right;
+}
+.box9:hover{
+    background-position:right;
+}
+.container1
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.row{
+    transition: all .5s ease;
+}
+.main{
+    font-size: 17px;
+    color: aliceblue;
+    display: block;
+  
+    margin:20px 0 0 ;
+}
+.main:hover
+{
+    display: none;
+}
+
+.holder{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.text:hover{
+    display: none;
+    cursor: pointer;
+}
+h3::before:hover{
+    content: "hello";
+    position:absolute;
+    left:0;
+    color:antiquewhite;
+    bottom: -10px;
+}
+.second{
+    background-color: #0F1D22;
+    
+    height:100vh;
+}
+span{
+    font-family: 'Miniver', cursive;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: .04em;
+    color: #afb8b8;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    color: #c9ab81;
+    display: block;
+    margin-bottom: 13px;
+    margin: 25px 0;
+    letter-spacing: 3px;
+}
+H2{
+    font-size: 50px;
+    font-family: caviar_dreamsbold,sans-serif;
+    font-weight: 200;
+  
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #c9ab81;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.data{
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+   position: relative;
+   padding-top: 200px;
+}
+p{
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+h5{
+    color: white;
+}
+.third1{
+    background-color: #090D0E;
+    text-align: center;
+    padding-top: 200px;
+}
+.cola{
+    margin-bottom: 170px;
+}
+
+.box10{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(Landing-inner-img-1.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+   .box11{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(Landing-inner-img-2.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+   .box12{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(Landing-inner-img-3.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+   .box13{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(Landing-inner-img-4.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+   .box14{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(Landing-inner-img-5.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+   .box15{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(landing-innerp-img-7.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+   .box16{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(landing-innerp-img-8.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+   .box17{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(landing-innerp-img-4.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+   .box18{
+   
+    WIDTH:28vw;
+    height:200px;
+    background-image: url(Landing-inner-img-1.jpg);
+    background-size: cover;
+    transition: 15s;
+    background-position: top;
+    
+       
+   }
+ .lastimg{
+    height: 100vh;
+    background-image: url(landing-img-16.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.myh1{
+    position: relative;
+     padding-top: 150px; 
+     letter-spacing: 2px;
+      word-spacing: 4px;
+}
+@media screen  and (min-width: 412px) and (max-width:680px)
+{
+    a{
+        padding: 20px 40px; 
+    } 
+    h1{
+        font-size: 70px;
+        word-wrap: normal;
+        
+        
+       top: 70px;
+    } 
+    .pera1{
+        margin-top:-60px;
+        margin: 40px 40px 40px 10px;
+    } 
+    .container
+    {
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+        margin-top: 190px;
+        align-items: center;
+    }
+    .container2{
+       
+      margin-top: 0px;
+        flex-direction:column;
+
+    }
+    .box1{
+   
+        WIDTH:80vw;
+        height:200px;
+        background-image: url(card1.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box2{
+          
+           WIDTH:80vw;
+           height:200px;
+           background-image: url(card2.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box3{
+          
+           WIDTH:80vw;
+           height:200px;
+           background-image: url(card3.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box4{
+          
+           WIDTH:80vw;
+           height:200px;
+           background-image: url(card4.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box5{
+          
+           WIDTH:80vw;
+           height:200px;
+           background-image: url(card5.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box6{
+          
+           WIDTH:80vw;
+           height:200px;
+           background-image: url(card6.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box7{
+          
+           WIDTH:80vw;
+           height:200px;
+           background-image: url(card7.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box8{
+          
+           WIDTH:80vw;
+           height:200px;
+           background-image: url(card8.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: left;
+              
+          }
+          .box9{
+          
+           WIDTH:80vw;
+           height:200px;
+           background-image: url(card9.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: left;
+              
+          }
+          h2{
+            font-size: 20px;
+            text-align: center;
+           
+          }
+          span{
+            overflow-y: hidden;
+          }
+          .myh1{
+            overflow-y: hidden;
+          }
+          .second{
+            height:70vh;
+            overflow-x: hidden;
+        }
+        .data{
+          float:none;
+          margin-left: 0;
+          padding-top: 100px;
+        }
+       p{
+        margin:30px 40px 40px 40px ;
+       }
+       .third1{
+        padding-top: 100px;
+       }
+       h2{
+        font-size: 25px;
+       }
+       .box10{
+   
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(Landing-inner-img-1.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box11{
+       
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(Landing-inner-img-2.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box12{
+       
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(Landing-inner-img-3.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box13{
+       
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(Landing-inner-img-4.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box14{
+       
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(Landing-inner-img-5.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box15{
+       
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(landing-innerp-img-7.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box16{
+       
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(landing-innerp-img-8.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box17{
+       
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(landing-innerp-img-4.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box18{
+       
+        WIDTH:85vw;
+        height:200px;
+        background-image: url(Landing-inner-img-1.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .container
+       {
+        margin-top: 90px;
+       }
+       .col{
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+       }
+       .lastimg{
+        height: 50vh;
+       }
+       .myh1{
+        padding-top: 20px;
+       }
+       .btn{
+        margin-top: 30px;
+       }
+       .container3{
+        margin-bottom: 0px;
+       }
+       .logo2{
+        display: none;
+       }
+      
+   
+       
+       
+}
+@media screen  and (min-width: 681px) and (max-width:1000px)
+{
+
+    span{
+        overflow-y: hidden;
+      }
+      .myh1{
+        overflow-y: hidden;
+      }
+    a{
+        padding: 20px 40px; 
+    } 
+    h1{
+        font-size: 100px;
+        word-wrap: normal;
+        
+        
+       top: 70px;
+    } 
+    .pera1{
+        margin-top:-60px;
+        margin: 70px 70px 70px 70px;
+    } 
+    .container
+    {
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+        margin-top: 190px;
+        align-items: center;
+    }
+    .container2{
+       
+      margin-top: 0px;
+        flex-direction:column;
+
+    }
+    .box1{
+   
+        WIDTH:85vw;
+        height:350px;
+        background-image: url(card1.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box2{
+          
+        WIDTH:85vw;
+        height:350px;
+           background-image: url(card2.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box3{
+            WIDTH:85vw;
+            height:350px;
+           background-image: url(card3.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box4{
+          
+            WIDTH:85vw;
+        height:350px;
+           background-image: url(card4.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box5{
+          
+            WIDTH:85vw;
+            height:350px;
+           background-image: url(card5.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box6{
+          
+            WIDTH:85vw;
+        height:350px;
+           background-image: url(card6.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box7{
+          
+            WIDTH:85vw;
+            height:350px;
+           background-image: url(card7.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: top;
+              
+          }
+          .box8{
+          
+            WIDTH:85vw;
+        height:350px;
+           background-image: url(card8.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: left;
+              
+          }
+          .box9{
+          
+            WIDTH:85vw;
+            height:350px;
+           background-image: url(card9.jpg);
+           background-size: cover;
+           transition: 15s;
+           background-position: left;
+              
+          }
+          h2{
+            font-size: 40px;
+            text-align: center;
+          }
+          .second{
+            height:100vh;
+            overflow-y: hidden;
+        }
+        .data{
+          float:none;
+          margin-left: 0;
+          padding-top: 100px;
+        }
+       p{
+        margin:30px 40px 40px 40px ;
+       }
+       .third1{
+        padding-top: 100px;
+       }
+       h2{
+        font-size: 50px;
+       }
+       .box10{
+   
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(Landing-inner-img-1.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box11{
+       
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(Landing-inner-img-2.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box12{
+       
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(Landing-inner-img-3.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box13{
+       
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(Landing-inner-img-4.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box14{
+       
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(Landing-inner-img-5.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box15{
+       
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(landing-innerp-img-7.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box16{
+       
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(landing-innerp-img-8.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box17{
+       
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(landing-innerp-img-4.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .box18{
+       
+        WIDTH:85vw;
+        height:300px;
+        background-image: url(Landing-inner-img-1.jpg);
+        background-size: cover;
+        transition: 15s;
+        background-position: top;
+        
+           
+       }
+       .container
+       {
+        margin-top: 90px;
+       }
+       .col{
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+       }
+       .lastimg{
+        height: 100vh;
+       }
+       .myh1{
+        padding-top: 20px;
+       }
+       .btn{
+        margin-top: 30px;
+       }
+       .container3{
+        margin-bottom: 0px;
+       }
+       .logo2{
+        display: none;
+       }
+
+}
