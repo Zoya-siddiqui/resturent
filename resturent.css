@@ -463,27 +463,58 @@ h5{
     background-position: center;
     background-size: cover;
 }
-.myh1{
+.myh4{
+    font-size: 90px;
+    font-weight: 300;
     position: relative;
-     padding-top: 150px; 
-     letter-spacing: 2px;
-      word-spacing: 4px;
+    text-transform: capitalize;
+     padding-top: 100px; 
+     letter-spacing: 4px;
+      word-spacing: 8px;
+      color: #c9ab81;
+      font-family: 'Mrs Saint Delafield', cursive;
+      margin-bottom: 20px;
 }
-@media screen  and (min-width: 412px) and (max-width:680px)
+@media screen  and (min-width: 300px) and (max-width:680px)
 {
+    .btn{
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        word-spacing: 3px;
+        padding: 15px 30px;
+        background-color: transparent;
+        color: whitesmoke;
+        border: 1px solid #c9ab81;
+        font-size: 16px;
+        font-weight: 700;
+     
+    }
+    .myh4{
+        font-size: 50px;
+        font-weight: 500;
+        position: relative;
+        text-transform: capitalize;
+         padding-top: 10px; 
+         letter-spacing: 4px;
+          word-spacing: 8px;
+          color: #c9ab81;
+          font-family: 'Mrs Saint Delafield', cursive;
+          margin-bottom: 20px;
+          margin-top: 40px;
+    }
     a{
-        padding: 20px 40px; 
+        padding: 10px 30px; 
     } 
     h1{
-        font-size: 70px;
+        font-size: 50px;
         word-wrap: normal;
-        
+        margin-bottom: 30px;
         
        top: 70px;
     } 
     .pera1{
-        margin-top:-60px;
-        margin: 40px 40px 40px 10px;
+        margin-top:-70px;
+        margin: 60px 60px 60px 60px;
     } 
     .container
     {
@@ -608,7 +639,7 @@ h5{
         .data{
           float:none;
           margin-left: 0;
-          padding-top: 100px;
+          padding-top: 20px;
         }
        p{
         margin:30px 40px 40px 40px ;
@@ -734,7 +765,7 @@ h5{
         padding-top: 20px;
        }
        .btn{
-        margin-top: 30px;
+        margin-top: 20px;
        }
        .container3{
         margin-bottom: 0px;
